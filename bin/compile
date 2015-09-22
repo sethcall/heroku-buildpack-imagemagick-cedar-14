@@ -12,7 +12,7 @@ mkdir -p vendor/imagemagick
 cd vendor/imagemagick
 
 TAR_URL=http://www.imagemagick.org/download/releases/ImageMagick-6.9.1-10.tar.xz
-curl -L --silent $TAR_URL | tar xz
+curl -L --silent $TAR_URL | tar -xJf
 
 cd ImageMagick-6.9.1-10
 
